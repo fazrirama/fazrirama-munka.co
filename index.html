@@ -1,0 +1,386 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1 maximum-scale=1, user-scalable=no">
+    <title>Munka.co - Fashion Shop for Women</title>
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!--fontawesome--> 
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <!--fontgoogle-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!--MY CSS-->
+    <link rel="stylesheet" href="style/style.css">
+  </head>
+
+   <!--START-->
+  <body>
+    <link rel="shortcut icon" href="image/logo/revlogomunka2.png">
+
+  <!--First Navbar-->
+  <nav class="navbar-one flex">
+      <div class="left flex">
+        <a class="navbar-brand" href="index.html">
+          <div class="logo">
+          <img src="image/logo/3.png" style="margin: 0; width:117px "; />
+          </div>
+        </a>
+          <div class="user dropdown" aria-labelledby="navbarDropdown">
+             <span><i class="fa fa-user"></i> My Account</span>
+              <div class="isi-dropdown">
+                <a href="login.html"><i class="fa fa-sign-in"></i> Sign In</a><br>
+                <a href="#"><i class="fa fa-user-plus"></i> Register</a><br>
+                <hr>
+                <a href="#"><i class="fa fa-check"></i> Payment Confirmation</a><br>
+                <a href="#"><i class="fa fa-search"></i> Track Order</a><br>
+              </div>
+          </div>
+          <div class="cart">
+             <a href="cart.html"><span style="color: #f1b996"><i class="fa fa-cart-shopping"></i> Cart (0) </span></a>
+          </div>
+            <div class="wish dropdown">
+              <span><i class="fa fa-heart"></i> Wishlist</span>
+              <div class="isi-dropdown" style="width:220px; padding: 8px; padding-left: 23px;">
+                <p></i> You don't Have Any Wishlist Yet</p>
+              </div>  
+          </div>
+          <div class="co">
+              <span><i class="fa fa-cash-register"></i> Checkout</span>
+          </div>
+      </div>
+        <div class="right flex">
+            <div class="search-box">
+              <div class="container-1">
+                  <input class="search-txt" type="text" name="" placeholder="Search Product.." />
+                  <a class="search-btn" href="#"></a>
+                  <i class="fa fa-search"></i>
+              </div>
+            </div>
+        <div class="language">
+            <a><span> Language  <img src="image/vector/us.png" style="margin-right: 25px; width:12px; height:10px;"></span></a>
+        </div>
+        <div class="FAQ">
+          <span>FAQ</span>
+      </div>
+      </div>
+    </div>
+  </nav>    
+
+    <!--END CLEAR-->
+
+     <!--Second navbar-->
+     <div id="header">
+      <nav class="navbar navbar-expand-lg fixed">
+        <div class="container">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html"><span style="color: #e29a57">Home</span></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.html#judul-produk">Tops</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link" href="#">Lowers</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link" href="#">Outerwears</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link" href="#">Bags</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link" href="#">Accesories</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link" href="#">Shoes</span></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <br><br>
+  <!--End Navbar-->
+
+    <!--carousel-->
+    <div class="container-fluid mb-5">
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="image/carousel/cover.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5 style="font-weight: bold;">It's All About <span style="color: #dd7c40">Munka</span>.co</h5>
+            <p style="color: cornsilk;">"What you wear is how you present yourself to the world"<br> - Your Daily Outfit -</p>
+            <a href="#" class="btn" style="background-color: #dd7c40; color:#fff; padding: 2px; width: 150px;">Check it out</a>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="image/about/Business Plan_02.png" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="image/carousel/2.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5 style="font-weight: bold;"><span style="color: #dd7c40">Munka</span> is Simple</h5>
+            <p>"Simplicity is the keynote of all true elegance."~</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+    <!--End-->
+
+
+      <!--PRODUK-->
+      <section>
+      <div class="container mt-0">
+        <div id="judul-produk" style="background-color: #0c0c0c; margin-top: 5px; margin-bottom: 5px; padding: 1px 5px; width: auto; ">
+          <h4 style="margin-top: 15px; color: rgb(255, 255, 255);">Product Sale</h4>
+        </div>
+        <div class="row">
+          <div class="col-lg-3 col-md-3 col-sm-4 col-4 mt-4">
+            <div class="card text-center">
+              <img src="image/produk/11.jpg" class="card-img-top" alt="...">
+              <div class="card-body bg-black">
+                <h6 class="card-title">Grey Munka Shirt</h6>
+                <div class="icon-bintang" style="color: rgb(252, 162, 59);">
+                  <i class="fa-solid fa-star"></i>
+                  4.5
+                </div>
+                <p class="card-text mt-2 ">IDR 165.000</p>
+                <p class="card-text">Ready Size : M, L, XL</p>  
+                <a href="#" class="btn btn-danger ds-flex mt-1"><i class="fa fa-heart"></i></a>
+                <a href="#" class="btn btn-dark mt-1"><i class="fa fa-cart-shopping"></i></a>
+                <a href="#" class="btn mt-0" style="background-color: #dd7c40; color:#fff; width: 110px;">Buy</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-3 col-sm-4 col-6 mt-4">
+            <div class="card text-center">
+              <img src="image/produk/22.jpg" class="card-img-top" alt="...">
+              <div class="card-body bg-black">
+                <h6 class="card-title">Blue Munka Shirt</h6>
+                <div class="icon-bintang" style="color: rgb(252, 162, 59);">
+                  <i class="fa-solid fa-star"></i>
+                  4.5
+                </div>
+                <p class="card-text mt-1">IDR 155.000</p>
+                <p class="card-text">Ready Size : M, L, XL</p>
+                <a href="#" class="btn btn-danger ds-flex mt-1"><i class="fa fa-heart"></i></a>
+                <a href="#" class="btn btn-dark mt-1"><i class="fa fa-cart-shopping"></i></a>
+                <a href="#" class="btn mt-0" style="background-color: #dd7c40; color:#fff; width: 110px;">Buy</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-3 col-sm-4 col-6 mt-4">
+            <div class="card text-center">
+              <img src="image/produk/3.jpg" class="card-img-top" alt="...">
+              <div class="card-body bg-black">
+                <h6 class="card-title">White Munka Shirt</h6>
+                <div class="icon-bintang" style="color: rgb(252, 162, 59);">
+                  <i class="fa-solid fa-star"></i>
+                  4.5
+                </div>
+                <p class="card-text mt-2">IDR 169.000</p>
+                <p class="card-text">Ready Size : M, L, XL</p>
+                <a href="#" class="btn btn-danger ds-flex mt-1"><i class="fa fa-heart"></i></a>
+                <a href="#" class="btn btn-dark mt-1"><i class="fa fa-cart-shopping"></i></a>
+                <a href="#" class="btn mt-0" style="background-color: #dd7c40; color:#fff; width: 110px;">Buy</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-3 col-sm-4 col-6 mt-4">
+            <div class="card text-center">
+              <img src="image/produk/4.jpg" class="card-img-top" alt="...">
+              <div class="card-body bg-black">
+                <h6 class="card-title">Black Munka Shirt</h6>
+                <div class="icon-bintang" style="color: rgb(252, 162, 59);">
+                  <i class="fa-solid fa-star"></i>
+                  4.8
+                </div>
+                <p class="card-text mt-2">IDR 159.000</p>
+                <p class="card-text">Ready Size : M, L, XL</p>
+                <a href="#" class="btn btn-danger ds-flex mt-1"><i class="fa fa-heart"></i></a>
+                <a href="#" class="btn btn-dark mt-1"><i class="fa fa-cart-shopping"></i></a>
+                <a href="#" class="btn mt-0" style="background-color: #dd7c40; color:#fff; width: 110px;">Buy</a>
+              </div>
+            </div>
+          </div>
+
+        </div> 
+      </div>
+      <br>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="Previous">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </section>
+    <br>
+      <!--end-->
+        
+
+    <!--LOGO GUARANTED-->
+    <div class="container-logo">
+        <img src="image/logo/4.png" style="text-align: center; height: 250px; margin-top: -40px;" alt="munka.co">
+        
+      </div>
+      <hr style="margin-top: -120px;">
+        <h4 style="text-align: center; font-weight: 600;">Why Us?</h4><br><br>
+      </div>
+      
+        <div class="row-logo">
+          <div class="col-lg-3 col-md-3 col-sm-3">
+            <image src="image/vector/logo1.png" style="height: 70px;">
+              <p>Original Product & Quality</p>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3">
+              <image src="image/vector/logo2.png" style="height: 70px;">
+                <p>Free Gift Voucher For More Order</p>
+              </div>
+              <div class="col-lg-3 col-md-3 col-sm-3">
+                <image src="image/vector/logo3.png" style="height: 70px;">
+                  <p>Free Shipment to Bandung With Minimal Order</p>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-3">
+                  <image src="image/vector/logo4.png" style="height: 70px;">
+                    <p>Security Payment</p>
+                  </div>
+        </div> 
+    <br><br><br><br><br>
+
+    <!--Caption-->
+    <section>
+    <div class="container-caption"><br>
+      <hr style="margin: auto; width: auto;">
+      <h4>IMPERFECT IS <span style="color: #dd7c40">PERFECT<span></h4>
+       <div class="rte">
+        <p>Human beings, especially women, are so unique. We can't compare to one and another. We are beautiful. And so is nature. Munka bring the value of both things.
+        <br>We know that it's really hard to embrace our beauty without bring cruelty to mother earth; cosmetics industry, garment
+        industry, etc. <br>
+        You can start to change that from the small things. It's not perfect, but imagine if everyone on earth is doing it imperfectly.</p>
+       <hr>
+        </div>
+      </div>
+    </section><br><br><br>
+      <!--end-->
+      
+        <div class="container">
+          <h5 style="text-align: center; font-weight: 600;">Subscribe To Our Newsletter</h5>
+          <p style="text-align: center;">Get IDR 50,000 VOUCHER (plus the latest fashion news and brand launches) just by subscribing to our newsletter.</p>
+          <form style="text-align: center; padding: 10px 10px 5px 5px; margin: 10px; border-color: #0c0c0c;">
+            <input style="border-radius: 5px; width: 300px; height: 40px; padding-left: 5px; border-color: #6b6b6b;" type="email" placeholder=" Enter Your Email">
+              <input style="border-radius: 5px; background-color: #dd7c40; border-color: #6b6b6b; padding-left: 10px; padding-right: 10px; height: 40px; color: cornsilk; font-weight: 500; " type="submit" value="Subscribe">
+          </form>
+      </div>
+      
+      <br>
+
+<!--footer-->
+<footer>
+      <div class="footer-bottom mt-5">
+        <div class="container-fluid bg-dark">
+            <div class="row pl-3">
+                <div class="col-lg-3 col-md-3 col-sm-3 segment-one">
+                      <a href="index.html"><img src="image/logo/5.png" style="width: 100px; height: 100px"/></a>
+                  </div>
+  
+          <div class="col-lg-3 col-md-3 col-sm-3 segment-two">
+           <h5>Contact Us</h5>
+            <ul>
+               <li> Admin Munka.co at : </li>
+               <li><i class="fa fa-envelope"></i> hellomunka@gmail.com</li>
+               <li><a href=""><span class="fab fa-whatsapp" href="https://wa.wizard.id/ccdd17"></span> Whatsapp</a></li>   
+               <img src="image/logo/QR.png"/>
+              </ul>
+              
+          </div>
+  
+          <div class="col-lg-3 col-md-3 col-sm-3 segment-three">
+          <h5>Navigation</h5>
+          <ul>
+              <li><a href="index.html">Home </a><br>
+              <li><a href="index.html#judul-produk">Tops</a><br>
+              <li><a href="#">Lowers</a><br>
+              <li><a href="#">Outwears</a><br>
+              <li><a href="#">Bags</a><br>
+              <li><a href="#">Accesories</a><br>
+              <li><a href="#">Shoes</a><br>
+          </ul>
+          </div>
+  
+          <div class="col-lg-3 col-md-3 col-sm-3 .col-xs-15 text-left segment-four">
+              <h5>Follow Us</h5>
+              <li>Please Follow Us on our Social Media Profile in order to keep update.</li>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-youtube"></i></a>
+          </div>
+
+          <div class="col-lg-3 col-md-3 col-sm-3 segment-five">
+            <h5>Help</h5>
+            <ul>
+                <li><a href="#">About </a><br>
+                <li><a href="#">How To Order </a><br>
+                <li><a href="#">Return & Exchange Guide</a><br>
+                <li><a href="#">FAQ</a><br>
+                <li><a href="#">Term & Conditions</a><br>
+            </ul>
+            </div>
+  
+         </div>
+        </div>
+      </footer>
+      <div class="container-fluid bg-black">
+        <div class="row">
+             <!-- Copyright -->
+              <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0); color: azure; font-size: 16px;">
+                © 2022 Copyright
+                <a class="text-white" style="font-size: 16px;" href="index.html"><span style="color: #dd7c40;">Munka</span>.co</a>
+              </div>
+            <!-- Copyright -->
+        </div>
+      </div>      
+
+ 
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script> //<![CDATA[
+      /* Sticky Header. Auto hide on scroll bottom, show on scroll top.  */
+      var prevScrollpos = window.pageYOffset;
+      window.onscroll = function() {
+        var currentScrollPos = window.pageYOffset;
+        if (prevScrollpos > currentScrollPos) {
+          document.getElementById("header").classList.remove('show');
+        }
+        else { document.getElementById("header").classList.add('show');
+        }
+        prevScrollpos = currentScrollPos;
+      }
+      //]]>
+  </script>
+  </body>
+
+  </html>
+
+  
