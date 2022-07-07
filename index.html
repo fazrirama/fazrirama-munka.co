@@ -21,9 +21,11 @@
    <!--START-->
   <body>
     <link rel="shortcut icon" href="image/logo/revlogomunka2.png">
-
-  <!--First Navbar-->
-  <nav class="navbar-one flex">
+    
+    
+    <header>
+    <!--First Navbar-->
+    <nav class="navbar-one flex">
       <div class="left flex">
         <a class="navbar-brand" href="index.html">
           <div class="logo">
@@ -33,7 +35,7 @@
           <div class="user dropdown" aria-labelledby="navbarDropdown">
              <span><i class="fa fa-user"></i> My Account</span>
               <div class="isi-dropdown">
-                <a href="login.html"><i class="fa fa-sign-in"></i> Sign In</a><br>
+                <a href="view/login.html"><i class="fa fa-sign-in"></i> Sign In</a><br>
                 <a href="#"><i class="fa fa-user-plus"></i> Register</a><br>
                 <hr>
                 <a href="#"><i class="fa fa-check"></i> Payment Confirmation</a><br>
@@ -41,7 +43,7 @@
               </div>
           </div>
           <div class="cart">
-             <a href="cart.html"><span style="color: #f1b996"><i class="fa fa-cart-shopping"></i> Cart (0) </span></a>
+             <a href="view/cart.html"><span style="color: #f1b996"><i class="fa fa-cart-shopping"></i> Cart (0) </span></a>
           </div>
             <div class="wish dropdown">
               <span><i class="fa fa-heart"></i> Wishlist</span>
@@ -110,15 +112,21 @@
     </div>
     <br><br>
   <!--End Navbar-->
+</header>
+
+
+
+
+
 
     <!--carousel-->
-    <div class="container-fluid mb-5">
+    <section>
     <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
       <div class="carousel-inner">
         <div class="carousel-item active">
           <img src="image/carousel/cover.jpg" class="d-block w-100" alt="...">
           <div class="carousel-caption d-none d-md-block">
-            <h5 style="font-weight: bold;">It's All About <span style="color: #dd7c40">Munka</span>.co</h5>
+            <h2 style="font-weight: bold;">It's All About <span style="color: #dd7c40; align-content: center;">Munka</span>.co</h2>
             <p style="color: cornsilk;">"What you wear is how you present yourself to the world"<br> - Your Daily Outfit -</p>
             <a href="#" class="btn" style="background-color: #dd7c40; color:#fff; padding: 2px; width: 150px;">Check it out</a>
           </div>
@@ -141,21 +149,21 @@
         <span class="visually-hidden">Next</span>
       </button>
     </div>
-  </div>
+    </section>
     <!--End-->
 
 
       <!--PRODUK-->
       <section>
       <div class="container mt-0">
-        <div id="judul-produk" style="background-color: #0c0c0c; margin-top: 5px; margin-bottom: 5px; padding: 1px 5px; width: auto; ">
+        <div id="judul-produk" style="background-color: #000; margin-top: 5px; margin-bottom: 5px; padding: 1px 5px; width: auto; ">
           <h4 style="margin-top: 15px; color: rgb(255, 255, 255);">Product Sale</h4>
         </div>
         <div class="row">
           <div class="col-lg-3 col-md-3 col-sm-4 col-4 mt-4">
             <div class="card text-center">
               <img src="image/produk/11.jpg" class="card-img-top" alt="...">
-              <div class="card-body bg-black">
+              <div class="card-body" style="background-color: #0c0c0c">
                 <h6 class="card-title">Grey Munka Shirt</h6>
                 <div class="icon-bintang" style="color: rgb(252, 162, 59);">
                   <i class="fa-solid fa-star"></i>
